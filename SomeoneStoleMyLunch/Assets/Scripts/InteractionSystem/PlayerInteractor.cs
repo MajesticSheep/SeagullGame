@@ -6,6 +6,7 @@ public class PlayerInteractor : MonoBehaviour
 {
     [SerializeField] private float radius = 2f;
     [SerializeField] private LayerMask interactableLayers;
+    [SerializeField] private InteractPrompt prompt;
     private Collider[] buffer = new Collider[32];
     private IInteractable focused;
 
@@ -49,7 +50,15 @@ public class PlayerInteractor : MonoBehaviour
         if (ReferenceEquals(focused, nearest)) return;
         focused?.OnFocusLost();
         focused = nearest;
-        focused?.OnFocusGained();
+        if (focused != null)
+        {
+            focused.OnFocusGained();
+            prompt.Show(focused);
+        }
+        else
+        {
+            prompt.Hide();
+        }
     }
 }
    
