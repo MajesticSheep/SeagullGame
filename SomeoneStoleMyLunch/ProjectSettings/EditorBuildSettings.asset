@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 0df8e5b9bac77ad43a7885930c2c9ea6
+  - enabled: 1
+    path: Assets/Scenes/InfoScreen.unity
+    guid: 535eeef94a1be6a4da9c9911a2b5db18
   m_configObjects: {}
