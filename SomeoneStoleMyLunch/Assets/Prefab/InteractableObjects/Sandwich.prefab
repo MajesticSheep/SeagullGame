@@ -48,9 +48,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6351002278907101417, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5400511482594145371, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5304980412480207703, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 168378438785174179, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
       propertyPath: m_Name
       value: Sandwich
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6122250026541284179, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693988022384147495, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59,6 +87,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
       insertIndex: -1
       addedObject: {fileID: -4165339080429642350}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6551775769338194623}
   m_SourcePrefab: {fileID: 100100000, guid: 798ce06c8f61dbf4c90ba6dc467cbd8b, type: 3}
 --- !u!1 &2175186526042084630 stripped
 GameObject:
@@ -86,3 +117,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-6551775769338194623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175186526042084630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615c2138ef7da3b4da65813515e2024a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: Interact
+  isEnabled: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
