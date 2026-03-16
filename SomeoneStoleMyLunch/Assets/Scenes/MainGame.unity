@@ -1757,7 +1757,7 @@ MonoBehaviour:
   interactableLayers:
     serializedVersion: 2
     m_Bits: 8
-  prompt: {fileID: 1891997907}
+  prompt: {fileID: 0}
 --- !u!1 &1454701793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,9 +3836,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1759415932}
     m_Modifications:
+    - target: {fileID: -3183645104236177197, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3183645104236177197, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -3183645104236177197, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5021331457544232429, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
       propertyPath: m_Name
       value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096831404960459728, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5684821426748213079, guid: 97d5231ab3fc8094fb4507075387ab21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4373,6 +4389,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1759415932}
     m_Modifications:
+    - target: {fileID: -1820140927097615618, guid: f9f5901286d1c4c43ae2eb9e57ba97ad, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1820140927097615618, guid: f9f5901286d1c4c43ae2eb9e57ba97ad, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507956419896514965, guid: f9f5901286d1c4c43ae2eb9e57ba97ad, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8318796992402368051, guid: f9f5901286d1c4c43ae2eb9e57ba97ad, type: 3}
       propertyPath: m_Name
       value: Chips
@@ -4785,6 +4813,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1759415932}
     m_Modifications:
+    - target: {fileID: -4165339080429642350, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1541357189200089004, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.3353527
@@ -4828,6 +4860,14 @@ PrefabInstance:
     - target: {fileID: 2175186526042084630, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
       propertyPath: m_Name
       value: Sandwich
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547887775261819760, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547887775261819760, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
