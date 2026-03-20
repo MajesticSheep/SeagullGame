@@ -8,19 +8,15 @@ public class PlayerPickUpAndDrop : MonoBehaviour
     [SerializeField] private LayerMask pickUpLayerMask;
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            float pickUpDistance = 5f;
-            if (Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask))
-            {
-                Debug.Log(raycastHit.transform);
-                if (raycastHit.transform.TryGetComponent(out ObjectGrabbable objectGrabbable))
-                {
-                    Debug.Log(objectGrabbable);
-                }
-            }
+            float pickUpDistance = 2f;
+            Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask);
+            Debug.Log(raycastHit.transform);
         }
     }
 }
+
+   
