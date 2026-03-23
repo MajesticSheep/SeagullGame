@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     //Might not need this one because this code is for first person games
     [SerializeField]
-    private Transform playerCameraTransform;
+    private Transform playerObjectTransform;
 
     [SerializeField]
     private GameObject pickUpUI;
@@ -23,13 +23,13 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Debug.DrawRay(playerCameraTransform.position, playerCameraTransform.forward * hitRange, Color.red);
+        Debug.DrawRay(playerObjectTransform.position, playerObjectTransform.forward * hitRange, Color.red);
         if (hit.collider != null)
         {
             hit.collider.GetComponent<Highlight>()?.ToggleHighlight(false);
             pickUpUI.SetActive(false);
         }
-        if (Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out hit, hitRange, interactableLayerMask))
+        if (Physics.Raycast(playerObjectTransform.position, playerObjectTransform.forward, out hit, hitRange, interactableLayerMask))
         {
             //the question mark is there to make sure the component has to Highlight script
             hit.collider.GetComponent<Highlight>()?.ToggleHighlight(true);
