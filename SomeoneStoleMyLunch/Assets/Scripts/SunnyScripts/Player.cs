@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     [Min(1)]
-    private float hitRange = 3;
+    private float hitRange = 5;
 
     private RaycastHit hit;
 
