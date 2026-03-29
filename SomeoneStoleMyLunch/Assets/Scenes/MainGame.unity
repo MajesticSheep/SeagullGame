@@ -4980,6 +4980,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1470266775919225825, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
+      propertyPath: m_Size.y
+      value: 1.317255
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470266775919225825, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
+      propertyPath: m_Center.y
+      value: 0.15862751
+      objectReference: {fileID: 0}
     - target: {fileID: 1541357189200089004, guid: 666cbecdd47cd374e9956871ffdaa6b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.3353527
